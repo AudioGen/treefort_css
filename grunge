@@ -1,0 +1,124 @@
+/*The header_subtabbar_height stylevar sets this to 45px so the scalloped bottom of the header image shows. This sets the height back to 29px for the text.*/
+#channel-subtabbar ul li {
+	height: 29px;
+	line-height: 2.9rem;
+}
+#channel-subtabbar ul li a {
+	line-height: 2.9rem;
+}
+
+
+
+.widget-content{
+ 	
+  	font-family: ui-rounded, Georgia, serif;
+  	font-size: 1.3rem;
+  
+}
+
+/*Content*/
+html, body, div, span, applet, object, iframe, h1, h2,
+h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big,
+cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, 
+sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, 
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, 
+mark, audio, video {
+   
+ 	font-size: 0.975rem;
+}
+
+
+
+#footer-tabbar{
+ background-color: #0e6f1b; 
+}
+
+#wrapper{
+ background-color: #0e6f1b;
+  
+ 
+}
+
+#channel-tabbar .channel-tabbar-list li a{
+ 	font-family: fantasy, serif;
+    font-weight: bold;
+  	font-size: 2rem;
+  	color: white;
+}
+
+
+img[alt="Logo"]{
+ 	animation-name: logo;
+  	animation-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+
+/* Forum title */
+.forum-list-container .forum-item .cell-forum > .forum-wrapper > .forum-info > .forum-title{
+  font-size: 1.8rem; 
+  font-family: Roboto Slab, serif;
+}
+
+
+/* Subforums */
+tbody > tr {
+  margin: 5px; 
+}
+
+.subforum-item{
+ 	margin-bottom: 4px; 
+}
+
+/* Spread out Subforums Line Height */
+@media only screen and (min-width: 600px){
+.subforum-info > .subforum-title{
+ 	font-size: 1.1rem;
+    line-height: 25px; 	
+}
+}
+
+/* main titles */
+.page-title-widget .module-title, .page-title-widget .module-title h1{
+   color: #0e6f1b;
+   text-align: center;
+   font-family: Helvetica;
+}
+
+@media only screen and (max-width: 600px){
+.page-title-widget .module-title, .page-title-widget .module-title h1{
+  
+   font-size: 1.5rem; 
+}
+}
+
+/* Form Element Titles on Mobile */
+@media only screen and (max-width: 600px){
+.search-fields-widget .searchConfigFields .add-search-fieldset .label_column{
+  position: relative;
+  top: -13px;
+	}
+}
+
+/* "Remove" copyright info */
+#footer-vb-copyright{
+  
+ opacity: 0; 
+  
+}
+
+/* Change header */
+.b-top-background__header-mainnav-subnav{
+ 	background: url("core/css/0/0/5/2/1/7//images/tf logo.png"); 
+}
+
+#footer-current-datetime{
+  
+ opacity: 0; 
+}
+
+.b-userinfo__rank{
+  
+ opacity: 0; 
+}
