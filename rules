@@ -7,6 +7,8 @@
 	line-height: 2.9rem;
 }
 
+
+
 .widget-content{
  	
   	font-family: ui-rounded, Georgia, serif;
@@ -34,6 +36,7 @@ mark, audio, video {
 
 #wrapper{
  background-color: #0e6f1b;
+  
  
 }
 
@@ -41,6 +44,7 @@ mark, audio, video {
  	font-family: fantasy, serif;
     font-weight: bold;
   	font-size: 2rem;
+  	color: white;
 }
 
 
@@ -67,17 +71,19 @@ tbody > tr {
  	margin-bottom: 4px; 
 }
 
+/* Spread out Subforums Line Height */
+@media only screen and (min-width: 600px){
 .subforum-info > .subforum-title{
  	font-size: 1.1rem;
-    line-height: 3px;
-
-  	
+    line-height: 25px; 	
+}
 }
 
 /* main titles */
 .page-title-widget .module-title, .page-title-widget .module-title h1{
    color: #0e6f1b;
    text-align: center;
+   font-family: Helvetica;
 }
 
 @media only screen and (max-width: 600px){
@@ -85,4 +91,63 @@ tbody > tr {
   
    font-size: 1.5rem; 
 }
+}
+
+/* Form Element Titles on Mobile */
+@media only screen and (max-width: 600px){
+.search-fields-widget .searchConfigFields .add-search-fieldset .label_column{
+  position: relative;
+  top: -13px;
+	}
+}
+
+/* "Remove" copyright info */
+#footer-vb-copyright{
+  
+ opacity: 0; 
+  
+}
+
+/* Change header */
+.b-top-background__header-mainnav-subnav{
+ 	background: url("core/css/0/0/5/2/1/7//images/tf logo.png"); 
+}
+
+#footer-current-datetime{
+  
+ opacity: 0; 
+}
+
+.b-userinfo__rank{
+  
+ opacity: 0; 
+}
+
+/*Updated Mobile Posts */
+@media only screen and (max-width: 600px){
+.b-icon__double-arrow-right2--blue{
+     width: 20px;
+    height: 20px;
+    background: linear-gradient(#00008f, #009cdf);
+    margin-left: 15px;
+    border-radius: 5px;
+    opacity: 0.7;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .b-icon__double-arrow-down--blue{
+    width: 30px;
+    height: 30px;
+    background: radial-gradient(#fff, #0e6f1b);
+    margin-right: 5px;
+    border-radius: 50%; 
+	}
+}
+
+@media only screen and (max-width: 600px){
+ div.forum-desc{
+  display: block;
+   font-size: 14px;
+ }
 }
